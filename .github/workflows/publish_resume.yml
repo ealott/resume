@@ -33,10 +33,10 @@ jobs:
       # - name: Install markdown-resume
       #   run: npm install markdown-resume
       
-      - name: Install wkhtmltopdf
-        run: |
-          sudo apt-get update
-          sudo apt-get install wkhtmltopdf
+      # - name: Install wkhtmltopdf
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install wkhtmltopdf
 
       - name: debug
         run: |
@@ -51,7 +51,7 @@ jobs:
       - name: Render resume as HTML
         run: npx md2resume -t evanlott resume.md
       
-      - name: Render resume as PDF
-        run: npx md2resume -t evanlott resume.md
+      # - name: Render resume as PDF
+      #   run: npx md2resume -t evanlott resume.md
 
 #  publish-main:
