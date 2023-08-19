@@ -11,6 +11,8 @@ on:
 permissions:
   contents: read
   pull-requests: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
@@ -19,6 +21,9 @@ concurrency:
 # The `jobs` key groups together all the jobs that run in the workflow file.
 jobs:
   publish-feature:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     continue-on-error: true
 
@@ -52,8 +57,21 @@ jobs:
         run: cp -r template/evanlott node_modules/markdown-resume/templates/evanlott
 
       - name: Render resume as HTML
-        run: npx md2resume -t evanlott resume.md
-      
+        run: |
+          mkdir static
+          cd static 
+          npx md2resume -t evanlott resume.md
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          # Upload entire repository
+          path: static/resume.html
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
       # - name: Render resume as PDF
       #   run: npx md2resume -t evanlott resume.md
 
