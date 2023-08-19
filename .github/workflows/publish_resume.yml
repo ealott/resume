@@ -41,11 +41,12 @@ jobs:
       #     sudo apt-get install wkhtmltopdf
 
       - name: debug
+        continue-on-error: true
         run: |
-          ls -lah ~/.npm
-          ls -lah node_modules
           ls -lah .
           ls -lah ..
+          ls -lah node_modules
+
 
       - name: Copy template
         run: cp -r template/evanlott node_modules/markdown-resume/templates/evanlott
