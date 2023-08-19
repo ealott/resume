@@ -1,0 +1,50 @@
+# This defines the name of the workflow as it will appear in the "Actions" tab of the GitHub repository.
+name: 'Publish Resume'
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+  cancel-in-progress: true
+
+# The `jobs` key groups together all the jobs that run in the workflow file.
+jobs:
+  publish-feature:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.13.x
+          cache: npm
+
+      - name: Install markdown-resume
+        run: npm install markdown-resume
+      
+      - name: Install wkhtmltopdf
+        run: |
+          apt update
+          apt install wkhtmltopdf
+
+      - name: Copy template
+        run: cp template/evanlott node_modules/markdown-resume/templates/evanlott
+
+      - name: Render resume as HTML
+        run: npx md2resume -t evanlott resume.md
+      
+      - name: Render resume as PDF
+        run: npx md2resume -t evanlott resume.md
+
+#  publish-main:
