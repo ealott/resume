@@ -39,7 +39,7 @@ jobs:
           sudo apt-get install wkhtmltopdf
 
       - name: Copy template
-        run: cp template/evanlott node_modules/markdown-resume/templates/evanlott
+        run: cp -r template/evanlott node_modules/markdown-resume/templates/evanlott
 
       - name: Render resume as HTML
         run: npx md2resume -t evanlott resume.md
