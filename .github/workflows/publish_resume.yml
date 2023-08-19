@@ -46,7 +46,7 @@ jobs:
           ls -lah .
           ls -lah ..
           ls -lah /opt/hostedtoolcache/node/16.13.2/x64/
-          ls -lah /home/runner/.npm
+          ls -lah /home/runner/
 
       - name: Copy template
         run: cp -r template/evanlott node_modules/markdown-resume/templates/evanlott
