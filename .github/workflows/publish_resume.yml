@@ -26,14 +26,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup node and markdown-resume
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.13.x
-          cache: npm
+      # - name: Setup node and markdown-resume
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     node-version: 16.13.x
+      #     cache: npm
 
-      # - name: Install markdown-resume
-      #   run: npm install markdown-resume
+      - name: Install markdown-resume
+        run: npm install markdown-resume
       
       # - name: Install wkhtmltopdf
       #   run: |
