@@ -24,19 +24,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup node
+      - name: Setup node and markdown-resume
         uses: actions/setup-node@v3
         with:
           node-version: 16.13.x
           cache: npm
 
-      - name: Install markdown-resume
-        run: npm install markdown-resume
+      # - name: Install markdown-resume
+      #   run: npm install markdown-resume
       
       - name: Install wkhtmltopdf
         run: |
-          apt update
-          apt install wkhtmltopdf
+          sudo apt-get update
+          sudo apt-get install wkhtmltopdf
 
       - name: Copy template
         run: cp template/evanlott node_modules/markdown-resume/templates/evanlott
