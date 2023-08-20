@@ -61,15 +61,17 @@ jobs:
         with:
           name: draft-resume
           path: |
-            'static'
+            '${{ github.workspace }}/static'
           retention-days: 5
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: 'static'
+          path: '${{ github.workspace }}/static'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
