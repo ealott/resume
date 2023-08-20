@@ -57,7 +57,9 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: draft-resume
-          path: 'resume.*'
+          path: |
+            'resume.html'
+            'resume.pdf'
           retention-days: 5
 
       - name: Setup Pages
