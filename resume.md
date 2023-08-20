@@ -1,5 +1,5 @@
 # Evan Lott
-## Software & Cloud Engineer 
+## Software & Cloud Engineer
 > [evanlott.com](http://evanlott.com)
 > [opportunities@evanlott.com](mailto:opportunities@evanlott.com)
 > (469) 383-8261
@@ -19,9 +19,9 @@
  \- Configured SSO identity federation with Okta across a variety of SaaS and org-built applications (GitHub, AWS IAM Identity Center, etc.)
 
 **JPMorgan Chase & Co.** *Software Engineer (Contractor)* __September 2020 - March 2021__
- \- Architected cloud infrastructure on AWS 
+ \- Architected cloud infrastructure on AWS
  \- Deployed cloud solutions with Terraform and Jenkins pipelines
- \- Guided other teams on AWS and SRE best practices 
+ \- Guided other teams on AWS and SRE best practices
  \- Refactored metrics exporter components to enable greater visibility in Prometheus/Cortex
 
 **Capital One** *Senior Software Engineer* __January 2017 - September 2020__
@@ -49,13 +49,13 @@
   \- Identified OS-level security vulnerabilities with Nexpose
   \- Built virtual machine inventory management system
   \- Extensively documented configurations in Confluence
-  \- Maintained all scripts in git 
+  \- Maintained all scripts in git
   \- Built and maintained multi-forest Active Directory infrastructure
   \- Developed AD Group Policies
   \- Deployed and administered multiple monitoring solutions (Panopta, PRTG, Zabbix, OpenManage Essentials)
   \- Managed internal company patching infrastructure, including WSUS and Linux package mirrors
   \- Deployed, administered, automated and monitored vCenter and ESXi installations for private and public cloud workloads
-  \- Remediated hypervisor security vulnerabilities 
+  \- Remediated hypervisor security vulnerabilities
   \- Monitored, troubleshot and fixed all blade servers and blade chassis hardare
   \- Wrote, maintained and applied hardware installation and testing SOPs
 
@@ -76,7 +76,7 @@
  \- Designed, implemented and tested an e-commerce website utilizing the Drupal CMS
  \- Installed and maintained LAMP stack and PCI compliance to ensure protection of sensitive customer information
  \- Coached client on site maintenance, web technology and content inclusion
- \- Filmed video clips and processed with Adobe After Effects 
+ \- Filmed video clips and processed with Adobe After Effects
 
 ------
 
@@ -86,7 +86,7 @@
     Credential ID QP2QQ5ZC2JRE109G
 
 **Microsoft Certified DevOps Engineer Expert** | __July 2023 - Present__
-    Credential ID 
+    Credential ID
 
 **Certified Information Systems Security Professional (CISSP)** | __Jan 2020 - Present__
     Credential ID 626279
