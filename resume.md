@@ -112,11 +112,11 @@
 
 ### Education
 
-**Master of Science, Information Technology and Management** __2017 - 2020__
+**Master of Science, Information Technology and Management** __2020__
     Naveen Jindal School of Management, UT Dallas
 
-**Certificate in Cybersecurity Systems** __2017 - 2020__
+**Certificate in Cybersecurity Systems** __2020__
     Naveen Jindal School of Management, UT Dallas
 
-**Bachelor of Arts, Psychology** __2009 - 2010__
+**Bachelor of Arts, Psychology** __2010__
     University of Texas at Dallas, Magna cum laude
