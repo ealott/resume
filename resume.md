@@ -8,6 +8,8 @@
 
 ------
 
+<!-- markdownlint-disable MD013 line-length -->
+
 ### Experience
 
 **Sixth Street** *DevOps, Cloud and Platform Engineer* | **April 2021 - Present**
