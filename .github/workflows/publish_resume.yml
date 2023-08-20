@@ -29,10 +29,10 @@ jobs:
       - name: Install markdown-resume
         run: npm install markdown-resume
       
-      - name: Install wkhtmltopdf
-        run: |
-          sudo apt-get update
-          sudo apt-get install wkhtmltopdf
+      # - name: Install wkhtmltopdf
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install wkhtmltopdf
 
       - name: Copy template
         run: cp -r template/evanlott node_modules/markdown-resume/templates/evanlott
@@ -43,10 +43,10 @@ jobs:
           mkdir static
           cp resume.html static/index.html
 
-      - name: Render resume as PDF
-        run: |
-          npx md2resume -pdf -t evanlott resume.md
-          cp resume.pdf static/resume.pdf
+      # - name: Render resume as PDF
+      #   run: |
+      #     npx md2resume -pdf -t evanlott resume.md
+      #     cp resume.pdf static/resume.pdf
 
       - name: 'Upload resume artifacts'
         uses: actions/upload-artifact@v3
