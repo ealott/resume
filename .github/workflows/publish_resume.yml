@@ -54,6 +54,11 @@ jobs:
       - name: Render resume as HTML
         run: |
           npx md2resume -t evanlott resume.md
+          cp resume.html index.html
+
+      - name: Render resume as PDF
+        run: npx md2resume -t evanlott resume.md
+
   Publish:
     needs: Render
     environment:
@@ -62,15 +67,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Upload draft resume'
+      - name: 'Upload resume artifacts'
         uses: actions/upload-artifact@v3
         with:
           name: draft-resume
           path: 'resume.*'
           retention-days: 5
-
-      # - name: Render resume as PDF
-      #   run: npx md2resume -t evanlott resume.md
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
