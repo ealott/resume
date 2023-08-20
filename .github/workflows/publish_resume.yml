@@ -26,27 +26,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # - name: Setup node and markdown-resume
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: 16.13.x
-      #     cache: npm
-
       - name: Install markdown-resume
         run: npm install markdown-resume
       
-      # - name: Install wkhtmltopdf
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install wkhtmltopdf
-
-      - name: debug
-        continue-on-error: true
+      - name: Install wkhtmltopdf
         run: |
-          ls -lah .
-          ls -lah ..
-          ls -lah /opt/hostedtoolcache/node/16.13.2/x64/
-          ls -lah /home/runner/
+          sudo apt-get update
+          sudo apt-get install wkhtmltopdf
 
       - name: Copy template
         run: cp -r template/evanlott node_modules/markdown-resume/templates/evanlott
@@ -57,7 +43,7 @@ jobs:
           cp resume.html index.html
 
       - name: Render resume as PDF
-        run: npx md2resume -t evanlott resume.md
+        run: npx md2resume -pdf -t evanlott resume.md
 
   Publish:
     needs: Render
