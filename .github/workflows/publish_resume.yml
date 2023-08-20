@@ -65,7 +65,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: draft-resume
-          path: resume.html
+          path: '.'
           retention-days: 5
 
       # - name: Render resume as PDF
