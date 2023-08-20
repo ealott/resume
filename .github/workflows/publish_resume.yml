@@ -43,7 +43,9 @@ jobs:
           cp resume.html index.html
 
       - name: Render resume as PDF
-        run: npx md2resume -pdf -t evanlott resume.md
+        run: |
+          npx md2resume -pdf -t evanlott resume.md
+          cp resume.pdf resume/
 
   Publish:
     needs: Render
@@ -58,8 +60,7 @@ jobs:
         with:
           name: draft-resume
           path: |
-            'resume.html'
-            'resume.pdf'
+            'resume'
           retention-days: 5
 
       - name: Setup Pages
@@ -67,7 +68,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: '.'
+          path: 'resume'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
