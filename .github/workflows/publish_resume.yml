@@ -55,6 +55,7 @@ jobs:
         run: |
           npx md2resume -t evanlott resume.md
   Publish:
+    needs: Render
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
