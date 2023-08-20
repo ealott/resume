@@ -82,23 +82,26 @@
 
 ### Certifications
 
-#### Current
 **Amazon Web Services (AWS) Solutions Architect Professional** | __Oct 2018 - Present__
     Credential ID QP2QQ5ZC2JRE109G
 
-**Certified Information Systems Auditor (CISA) Candidate** | __May 2020 - Present__
-    Exam passed, awaiting verification
-
-**Amazon Web Services (AWS) Solutions Architect Associate** | __Apr 2016 - Present__
-    Credential ID NGYNXQL1KFQQQSSL
-
-#### Legacy
+**Microsoft Certified DevOps Engineer Expert** | __July 2023 - Present__
+    Credential ID 
 
 **Certified Information Systems Security Professional (CISSP)** | __Jan 2020 - Present__
     Credential ID 626279
 
+**Amazon Web Services (AWS) Solutions Architect Associate** | __Apr 2016 - Present__
+    Credential ID NGYNXQL1KFQQQSSL
+
+**Microsoft Certified Azure Administrator** | __June 2023 - Present__
+    Credential ID QP2QQ5ZC2JRE109G
+
 **ITIL Foundations v3** __Mar 2016__
     Credential ID GR750231229EL
+
+**Certified Information Systems Auditor (CISA) Candidate** | __May 2020 - Present__
+    Exam passed, awaiting verification
 
 **VMWare Certified Professional 5.0 DCV** | __Jan 2015 - Jan 2017__
     Credential ID 13730534-88B4-A4E427D7007D
