@@ -72,16 +72,6 @@
  \- Continually identified efficiencies for systems, processes and procedures
  \- Scripted automation tools to make work faster and more accurate
 
-**ACD USA** *Assembly Production Planner* | **September 2012 - January 2013**
- \- Created complete electronics assembly instructions based on customer schematics and BoMs
- \- Generated Pick-and-Place programs for commercial surface-mount placement machines
-
-**Victory of Life, LLC.** *Web developer* | **2010 - 2011**
- \- Designed, implemented and tested an e-commerce website utilizing the Drupal CMS
- \- Installed and maintained LAMP stack and PCI compliance to ensure protection of sensitive customer information
- \- Coached client on site maintenance, web technology and content inclusion
- \- Filmed video clips and processed with Adobe After Effects
-
 ------
 
 ### Certifications
