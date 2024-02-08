@@ -58,11 +58,13 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
   
-  # Publish:
-  #   needs: Render
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume:  ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: us-east-1
 
-  #   steps:
+      - name: Sync files to S3 bucket
+        run: |
+            # aws s3 upload s3://evanlott.com --delete
+            aws s3 cp resume.html s3://evanlott.com
