@@ -12,7 +12,15 @@
 
 ### Experience
 
-**Sixth Street** *DevOps, Cloud and Platform Engineer* | **April 2021 - Present**
+**TierPoint** *Senior Cloud and DevOps Engineer* | **January 2023 - Present**
+ \- Architect customer environments in AWS and Azure
+ \- Build Infrastructure as Code with Terraform
+ \- Design and implement monitoring solutions with Datadog
+ \- Build CICD pipelines in GitLab
+ \- Manage OS configurations at scale with Ansible
+ \- Manage and build customer relationships
+
+**Sixth Street** *DevOps, Cloud and Platform Engineer* | **April 2021 - January 2023**
  \- Built serverless web APIs with Python Lambda functions, API Gateway, and SQS, Cloudfront, ACM, S3, EventBridge
  \- Worked on a software engineering team, performed code reviews, followed team Git Flow
  \- Architected serverless system to integrate multiple SaaS systems (FIS DX & Salesforce) in Python
@@ -76,20 +84,20 @@
 
 ### Certifications
 
-**Amazon Web Services (AWS) Solutions Architect Professional** | **Oct 2018 - Present**
-    Credential ID QP2QQ5ZC2JRE109G
+**Amazon Web Services (AWS) Solutions Architect Professional** | **Oct 2018 - Oct 2021 & Nov 2022 - Present**
+    Credential ID: [QP2QQ5ZC2JRE109G](https://cp.certmetrics.com/amazon/en/public/verify/credential/QP2QQ5ZC2JRE109G)
 
 **Microsoft Certified DevOps Engineer Expert** | **July 2023 - Present**
-    Credential ID
+    Credential ID: [DE4D27506CDFB48](https://learn.microsoft.com/api/credentials/share/en-us/EvanLott-9164/DE4D27506CDFB48?sharingId=25C7319E942DD233)
 
 **Certified Information Systems Security Professional (CISSP)** | **Jan 2020 - Present**
-    Credential ID 626279
-
-**Amazon Web Services (AWS) Solutions Architect Associate** | **Apr 2016 - Present**
-    Credential ID NGYNXQL1KFQQQSSL
+    Credential ID: 626279
 
 **Microsoft Certified Azure Administrator** | **June 2023 - Present**
-    Credential ID QP2QQ5ZC2JRE109G
+    Credential ID: [AD1C9171E8B04FCD](https://learn.microsoft.com/api/credentials/share/en-us/EvanLott-9164/AD1C9171E8B04FCD?sharingId=25C7319E942DD233)
+
+**Amazon Web Services (AWS) Security Specialty** | **Dec 2023 - Present**
+    Credential ID: [5c880030f611440f9a47e734b7736d27](https://cp.certmetrics.com/amazon/en/public/verify/credential/5c880030f611440f9a47e734b7736d27)
 
 **ITIL Foundations v3** **Mar 2016**
     Credential ID GR750231229EL
