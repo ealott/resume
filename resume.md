@@ -18,6 +18,7 @@
  \- Design and implement monitoring solutions with Datadog
  \- Build CICD pipelines in GitLab
  \- Manage OS configurations at scale with Ansible
+ \- Manage network infrastructure with Fortigate, Megaport, DirectConnect & ExpressRoute
  \- Manage and build customer relationships
 
 **Sixth Street** *DevOps, Cloud and Platform Engineer* | **April 2021 - January 2023**
@@ -84,7 +85,7 @@
 
 ### Certifications
 
-**Amazon Web Services (AWS) Solutions Architect Professional** | **Oct 2018 - Oct 2021 & Nov 2022 - Present**
+**AWS Solutions Architect Professional** | **Oct 2018 - Oct 2021 & Nov 2022 - Present**
     Credential ID: [QP2QQ5ZC2JRE109G](https://cp.certmetrics.com/amazon/en/public/verify/credential/QP2QQ5ZC2JRE109G)
 
 **Microsoft Certified DevOps Engineer Expert** | **July 2023 - Present**
@@ -96,7 +97,7 @@
 **Microsoft Certified Azure Administrator** | **June 2023 - Present**
     Credential ID: [AD1C9171E8B04FCD](https://learn.microsoft.com/api/credentials/share/en-us/EvanLott-9164/AD1C9171E8B04FCD?sharingId=25C7319E942DD233)
 
-**Amazon Web Services (AWS) Security Specialty** | **Dec 2023 - Present**
+**AWS Security Specialty** | **Dec 2023 - Present**
     Credential ID: [5c880030f611440f9a47e734b7736d27](https://cp.certmetrics.com/amazon/en/public/verify/credential/5c880030f611440f9a47e734b7736d27)
 
 **ITIL Foundations v3** **Mar 2016**
