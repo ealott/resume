@@ -39,7 +39,7 @@ jobs:
           cp resume.html static/index.html
 
       - name: 'Upload resume artifacts'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: draft-resume
           path: |
