@@ -12,14 +12,26 @@
 
 ### Experience
 
-**TierPoint** *Senior Cloud and DevOps Engineer* | **January 2023 - Present**
- \- Architect customer environments in AWS and Azure
- \- Build Infrastructure as Code with Terraform
- \- Design and implement monitoring solutions with Datadog
- \- Build CICD pipelines in GitLab
- \- Manage OS configurations at scale with Ansible
- \- Manage network infrastructure with Fortigate, Megaport, DirectConnect & ExpressRoute
- \- Manage and build customer relationships
+**Undisclosed Visual AI Company** *Site Reliability and DevOps Engineer* | **July 2024 - Present**
+ \- Architect, deploy, and manage fleet of 30+ customer Kubernetes clusters across Azure and on-prem (k3s)
+ \- Build Kubernetes cluster and application deployment pipelines in GitHub Actions
+ \- Troubleshoot complex Kubernetes application interactions involving GPU Operator, Argo Workflows, and ArgoCD
+ \- Utilize GitOps and ArgoCD to manage Kubernetes application state at scale (30+ clusters)
+ \- Operate in public cloud, private-cloud, and air-gap environments
+ \- Create deployment automation in Python, Bash
+ \- Build test cases with Pytest for all DevOps pipelines to ensure desired function
+ \- Deploy and utilize the Prometheus, Tempo, Pyroscope Grafana, Loki, Mimir monitoring stack to ensure uptime and trigger incident response
+ \- Surface application issues to the development team
+
+
+**TierPoint** *Senior Cloud and DevOps Engineer* | **January 2023 - July 2024**
+ \- Architected customer environments in AWS and Azure
+ \- Built Infrastructure as Code with Terraform
+ \- Designed and implement monitoring solutions with Datadog
+ \- Built CICD pipelines in GitLab
+ \- Managed OS configurations at scale with Ansible
+ \- Managed network infrastructure with Fortigate, Megaport, DirectConnect & ExpressRoute
+ \- Managed and build customer relationships
 
 **Sixth Street** *DevOps, Cloud and Platform Engineer* | **April 2021 - January 2023**
  \- Built serverless web APIs with Python Lambda functions, API Gateway, and SQS, Cloudfront, ACM, S3, EventBridge
@@ -85,7 +97,10 @@
 
 ### Certifications
 
-**AWS Solutions Architect Professional** | **Oct 2018 - Oct 2021 & Nov 2022 - Present**
+**Certified Kubernetes Administrator** | **May 2024 - Present**
+    Credential ID: [LF-226mhhg9f2](https://training.linuxfoundation.org/certification/verify/)
+
+**AWS Solutions Architect Professional** | **Oct 2018 - Oct 2021 & Nov 2022 - Nov 2025**
     Credential ID: [QP2QQ5ZC2JRE109G](https://cp.certmetrics.com/amazon/en/public/verify/credential/QP2QQ5ZC2JRE109G)
 
 **Microsoft Certified DevOps Engineer Expert** | **July 2023 - Present**
